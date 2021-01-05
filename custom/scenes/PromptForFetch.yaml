@@ -1,0 +1,14 @@
+intentEvents:
+- handler:
+    webhookHandler: getLabels
+  intent: LABEL_INFO
+- handler:
+    webhookHandler: getLists
+  intent: LISTS_INFO
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: What would you like to know about your honours project board?

@@ -1,0 +1,5 @@
+handlers:
+- name: getLabels
+- name: getLists
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment

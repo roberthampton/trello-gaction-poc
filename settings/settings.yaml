@@ -1,0 +1,6 @@
+defaultLocale: en
+localizedSettings:
+  displayName: Trello POC
+  pronunciation: Trello POC
+  voice: female_1
+projectId: honours-project-poc
